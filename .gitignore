@@ -1,0 +1,18 @@
+# CLion / CMake build folders
+cmake-build-*/
+build/
+out/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Compiled files
+*.o
+*.exe
+*.out
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
