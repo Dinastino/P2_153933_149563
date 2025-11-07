@@ -7,4 +7,5 @@ add_executable(P2_153933_149563
         procSecuencial.c
         procSecuencial.c
         structFilaMatriz.h
-        hebSecuencial.c)
+        hebSecuencial.c
+        procConcurrente.c)
