@@ -2,7 +2,7 @@
 
 ## Participantes
 
-Calos Oramas y Mario Gonzalo
+Carlos Oramas y Mario Gonzalo
 
 ## 3 Time Secuencial
 
