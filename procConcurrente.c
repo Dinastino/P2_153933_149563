@@ -2,6 +2,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/mman.h>
+#include <sys/wait.h>
+#include <sys/types.h>
 #include "structFilaMatriz.h"
 
 /** Se supone que este codigo proviene de structFilaMatriz.h pero en caso de no ser asi
@@ -23,6 +25,8 @@ fila_t matriz[NUMFILAS];
 
 int main(){
     int fd, zero = 0;
+    size_t bytes = sizeof(fila_t) * (size_t)NUMFILAS;
+
     fd = open("archivo", O_RDWR | O_CREAT, 0600);
     if(fd == -1){
         perror("Error al abrir o al crear el archivo");
