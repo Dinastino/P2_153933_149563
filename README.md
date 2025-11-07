@@ -22,3 +22,9 @@ En estos casos ambos procesos son más rápidos que sus versiones secuenciales. 
 Por otra parte procConcurrente también mejora sobre procSecuencial pero su coste de creación y sincronización de procesos es algo mayor.
 
 
+## 7. PTHREAD_SCOPE_SYSTEM
+
+<img width="607" height="596" alt="image" src="https://github.com/user-attachments/assets/5b1e271e-e27f-4d79-9bc6-4c2f8862901b" />
+
+El ámbito de planificación PTHREAD_SCOPE_SYSTEM no crea un cambio significativo en la velocidad de ejecución del proceso en comparación con el archivo sin este tipo de planificación.
+
